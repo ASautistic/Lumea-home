@@ -1,3 +1,4 @@
+
 // Simple Shopping Cart for Lumea Home
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
