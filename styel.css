@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, #fff9c4, #ffe082);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+/* Categories */
+.categories {
+  background: #fff3e0;
+  padding: 3rem 2rem;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.category-list a {
+  background: #ff7043;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-list a:hover {
+  background-color: #bf360c;
+}
+
+/* Product Sections */
+.products {
+  background: #fff8e1;
+  padding: 4rem 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.product-img {
+  background: #f0f0f0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.product button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.product button:hover {
+  background-color: #388e3c;
+}
+
+/* Checkout Page */
+.checkout {
+  background: #fffde7;
+  padding: 4rem 2rem;
+}
+
+.checkout form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.checkout input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.checkout button {
+  background-color: #f44336;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.checkout button:hover {
+  background-color: #c62828;
+}
+
+/* Footer */
+footer {
+  background-color: #ff7043;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
